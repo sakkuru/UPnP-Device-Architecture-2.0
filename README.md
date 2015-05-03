@@ -2,3 +2,4 @@
 aahogehoge
 0
 0
+0
