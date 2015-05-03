@@ -1,2 +1,3 @@
 # testrepo
-hogehoge
+aahogehoge
+0
