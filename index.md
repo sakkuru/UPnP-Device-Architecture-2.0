@@ -244,7 +244,7 @@ This section shows example codes that highlight the usage of main features of th
 
 ### 5.2 新規プレゼンテーションセッションの開始
 
-```
+``` html
 <!-- controller.html -->
 <script>
   // 相対URLも使用可能 例: "presentation.html"
@@ -262,7 +262,7 @@ This section shows example codes that highlight the usage of main features of th
 
 ### 5.3 プレゼンテーションセッションへの参加
 
-```
+``` html
 <!-- controller.html -->
 <script>
   // もしあればlocalStorageからpresIdから読み込む
@@ -278,7 +278,7 @@ This section shows example codes that highlight the usage of main features of th
 
 ### 5.4 セッション情報の監視とデータ交換
 
-```
+``` html
 <!-- controller.html -->
 <script>
   var session;
@@ -373,7 +373,7 @@ UとIは、対応するプレゼンテーションのPresentationSessionを一�
 
 各プレゼンテーションは、PresentationSessionオブジェクトによって表される。
 
-```
+``` html
 enum PresentationSessionState { "connected", "disconnected" /*, "resumed" */ };
 enum BinaryType { "blob", "arraybuffer" };
 
@@ -550,7 +550,7 @@ onstatechange | statechange
 
 ## 7 NavigatorPresentationインタフェース
 
-```
+``` html
 partial interface Navigator {
   readonly attribute NavigatorPresentation presentation;
 };
@@ -562,7 +562,7 @@ The presentation attribute is used to retrieve an instance of the NavigatorPrese
 
 presentation属性は、Presentation APIのメインインタフェースであるNavigatorPresentationインタフェースのインスタンスの取得に使われる。
 
-```
+``` html
 interface NavigatorPresentation : EventTarget {
   readonly attribute PresentationSession? session;
   Promise<PresentationSession> startSession(DOMString url, DOMString? presentationId);
@@ -842,7 +842,7 @@ UAが<b>使用可能なプレゼンテーションディスプレイのリスト
 
 ## 8 AvailableChangeEventインタフェース
 
-```
+``` html
 [Constructor(DOMString type, optional AvailableChangeEventInit eventInitDict)]
 interface AvailableChangeEvent : Event {
   readonly attribute boolean available;
