@@ -228,7 +228,7 @@ This section shows example codes that highlight the usage of main features of th
 
 ### 5.1 プレゼンテーションディスプレイの可用性監視
 
-``` javascript
+``` html 
 <!-- controller.html -->
 <button id="castBtn" style="display: none;">  </button>
 <script>
