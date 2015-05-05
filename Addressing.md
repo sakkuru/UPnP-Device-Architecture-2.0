@@ -1,5 +1,5 @@
 ---
-title: Adressing
+title: Addressing
 date: 2015-05-05
 ---
 

@@ -6,7 +6,7 @@ repository: UPnP-Device-Architecture-2.0
 ---
 
 * [Introduction](./Introduction)
-* [Adressing](./Adressing)
+* [Addressing](./Addressing)
 * [Discovery](./Discovery)
 * [Description](./Description)
 * [Contorol](./Control)
