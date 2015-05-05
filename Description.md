@@ -2,7 +2,7 @@
 layout: page
 title: Discription
 date: 2015-05-04
-repository: XXXX
+repository: UPnP-Device-Architecture-2.0 
 ---
 
 # 2 ディスクリプション

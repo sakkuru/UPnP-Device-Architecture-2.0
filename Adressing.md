@@ -2,7 +2,7 @@
 layout: page
 title: Adressing
 date: 2015-05-05
-repository: XXXX
+repository: UPnP-Device-Architecture-2.0 
 ---
 
 # 0 Adressing
