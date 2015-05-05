@@ -1,6 +1,6 @@
 #!/bin/sh
 
-dir=jekyll-files/_posts
+dir=_posts
 
 echo $dir
 rm -rf $dir/*
