@@ -1,4 +1,16 @@
+source:      _posts
+destination: _site
+layouts:     _layouts
+permalink: /:title
+
 markdown: redcarpet 
 redcarpet: 
     extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", 
-		                 "tables", "with_toc_data"] 
+		                 "tables", "with_toc_data"]
+
+defaults:
+  -
+    scope:
+      path: "" 
+    values:
+      layout: "default"
