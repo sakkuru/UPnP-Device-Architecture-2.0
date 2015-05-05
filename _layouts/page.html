@@ -4,22 +4,19 @@
     <meta charset="UTF-8">
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/normalize.css" media="screen">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/syntax-highlight.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/syntax-highlight.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/page.css" media="screen">
   </head>
   <body>
 
     <section class="page-header">
-      <h1 class="project-name">{{ page.title }}</h1>
-      <h2 class="project-tagline"></h2>
-      <a href="https://github.com/sakkuru/{{page:repository}}" class="btn">View on GitHub</a>
-      <a href="https://github.com/sakkuru/{{page:repository}}/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/sakkuru/{{page:repository}}/tarball/master" class="btn">Download .tar.gz</a>
-
-      <div>更新: {{ page.date }}</div>
+      <div class="link"><a href="../">{{ page.project }} </a> > <a href="./">{{ page.title }}</a></div>
+      <h1 class="page-name">{{ page.title }}</h1>
+      <div>更新: {{ page.date | date: "%Y年%m月%d日" }}</div>
       <div>翻訳: sakkuru</div>
 
     </section>
