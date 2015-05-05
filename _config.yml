@@ -13,6 +13,13 @@ defaults:
     scope:
       path: "" 
     values:
+      layout: "default"
+      repository: UPnP-Device-Architecture-2.0
+      project: "UPnP Device Architecture 2.0"
+  -
+    scope:
+      path: "_posts" 
+    values:
       layout: "page"
       repository: UPnP-Device-Architecture-2.0
       project: "UPnP Device Architecture 2.0"
