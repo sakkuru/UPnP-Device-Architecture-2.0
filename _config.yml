@@ -2,6 +2,9 @@
 destination: _site
 layouts:     _layouts
 permalink: /:title/
+repository: UPnP-Device-Architecture-2.0
+project: "UPnP Device Architecture 2.0"
+
 
 markdown: redcarpet 
 redcarpet: 
