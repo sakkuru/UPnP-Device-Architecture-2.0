@@ -1,4 +1,4 @@
-source:      _posts
+#source:      _posts
 destination: _site
 layouts:     _layouts
 permalink: /:title
