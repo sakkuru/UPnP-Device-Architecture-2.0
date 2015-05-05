@@ -1,11 +1,9 @@
 ---
-layout: page
-title: Intoroduction
+title: Introduction
 date: 2015-05-05
-repository: UPnP-Device-Architecture-2.0 
 ---
 
-# Indroduction
+# Introduction
 
 ## UPnP技術とは？
 
