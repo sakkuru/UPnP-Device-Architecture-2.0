@@ -1,3 +1,10 @@
+---
+layout: page
+title: Discription
+date: 2015-05-04
+repository: XXXX
+---
+
 # 2 ディスクリプション
 
 <!--
