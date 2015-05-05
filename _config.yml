@@ -1,7 +1,7 @@
 #source:      _posts
 destination: _site
 layouts:     _layouts
-permalink: /:title
+permalink: /:title/
 
 markdown: redcarpet 
 redcarpet: 
@@ -13,7 +13,7 @@ defaults:
     scope:
       path: "" 
     values:
-      layout: "default"
+      layout: "page"
       repository: UPnP-Device-Architecture-2.0
       project: "UPnP Device Architecture 2.0"
   -
